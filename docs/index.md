@@ -38,6 +38,13 @@
 | [Data Models](./data-models.md) | Question JSON schema, GameState dataclass, Player dataclass, state lifecycle |
 | [Development Guide](./development-guide.md) | Setup, run, test, architecture rules, adding questions/screens, common issues |
 
+## Diagrams
+
+| Diagram | Description |
+|---------|-------------|
+| [Screen Flow](./screen-flow.md) | Detailed flowchart of every screen, stage, decision point, and transition including GameState init and reset |
+| [Scoring Logic](./scoring-logic.md) | Detailed flowchart of speed bonus, streak multiplier, point calculation, percentage tracking, and end-of-round outcomes |
+
 ---
 
 ## Screen Navigation Map
