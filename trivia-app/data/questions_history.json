@@ -1,0 +1,74 @@
+[
+  {
+    "question_text": "In which year did World War I begin?",
+    "options": ["1912", "1914", "1916", "1918"],
+    "correct_index": 1,
+    "category": "History"
+  },
+  {
+    "question_text": "Which Egyptian queen formed alliances with both Julius Caesar and Mark Antony?",
+    "options": ["Nefertiti", "Cleopatra", "Hatshepsut", "Ankhesenamun"],
+    "correct_index": 1,
+    "category": "History"
+  },
+  {
+    "question_text": "Which empire was founded by Genghis Khan?",
+    "options": ["Ottoman Empire", "Mongol Empire", "Persian Empire", "Roman Empire"],
+    "correct_index": 1,
+    "category": "History"
+  },
+  {
+    "question_text": "In which year did the RMS Titanic sink?",
+    "options": ["1910", "1911", "1912", "1913"],
+    "correct_index": 2,
+    "category": "History"
+  },
+  {
+    "question_text": "Who invented the movable-type printing press in Europe?",
+    "options": ["Leonardo da Vinci", "Johannes Gutenberg", "Galileo Galilei", "Isaac Newton"],
+    "correct_index": 1,
+    "category": "History"
+  },
+  {
+    "question_text": "What ancient wonder of the world stood at Alexandria?",
+    "options": ["Colossus of Rhodes", "Hanging Gardens of Babylon", "Temple of Artemis", "Lighthouse of Alexandria"],
+    "correct_index": 3,
+    "category": "History"
+  },
+  {
+    "question_text": "Which country first landed humans on the Moon?",
+    "options": ["Soviet Union", "United States", "China", "United Kingdom"],
+    "correct_index": 1,
+    "category": "History"
+  },
+  {
+    "question_text": "In which year did World War II end?",
+    "options": ["1943", "1944", "1945", "1946"],
+    "correct_index": 2,
+    "category": "History"
+  },
+  {
+    "question_text": "Who was the first Roman Emperor?",
+    "options": ["Julius Caesar", "Augustus", "Nero", "Constantine"],
+    "correct_index": 1,
+    "category": "History"
+  },
+  {
+    "question_text": "The most preserved sections of the Great Wall of China were built during which dynasty?",
+    "options": ["Han Dynasty", "Tang Dynasty", "Ming Dynasty", "Qin Dynasty"],
+    "correct_index": 2,
+    "category": "History"
+  },
+  {
+    "question_text": "What city was the capital of the Byzantine Empire?",
+    "options": ["Athens", "Constantinople", "Alexandria", "Antioch"],
+    "correct_index": 1,
+    "category": "History"
+  },
+  {
+    "question_text": "In which year did the French Revolution begin?",
+    "options": ["1776", "1783", "1789", "1799"],
+    "correct_index": 2,
+    "category": "History"
+  }
+]

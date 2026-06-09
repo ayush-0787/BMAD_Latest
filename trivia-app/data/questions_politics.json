@@ -1,0 +1,74 @@
+[
+  {
+    "question_text": "Who was the first President of the United States?",
+    "options": ["George Washington", "John Adams", "Thomas Jefferson", "Benjamin Franklin"],
+    "correct_index": 0,
+    "category": "Politics"
+  },
+  {
+    "question_text": "Which country has the world's largest democracy by population?",
+    "options": ["United States", "India", "Brazil", "Indonesia"],
+    "correct_index": 1,
+    "category": "Politics"
+  },
+  {
+    "question_text": "What is the name of the lower house of the UK Parliament?",
+    "options": ["House of Commons", "House of Lords", "Senate", "Cabinet"],
+    "correct_index": 0,
+    "category": "Politics"
+  },
+  {
+    "question_text": "Which organisation has 193 member states as of 2023?",
+    "options": ["NATO", "European Union", "United Nations", "World Trade Organisation"],
+    "correct_index": 2,
+    "category": "Politics"
+  },
+  {
+    "question_text": "Who was the first female Prime Minister of the United Kingdom?",
+    "options": ["Theresa May", "Margaret Thatcher", "Jacinda Ardern", "Angela Merkel"],
+    "correct_index": 1,
+    "category": "Politics"
+  },
+  {
+    "question_text": "What does the acronym NATO stand for?",
+    "options": ["North Atlantic Treaty Organisation", "National Alliance of Trade Officials", "North American Treaty Order", "Northern Atlantic Trade Organisation"],
+    "correct_index": 0,
+    "category": "Politics"
+  },
+  {
+    "question_text": "Which amendment to the US Constitution abolished slavery?",
+    "options": ["13th", "14th", "15th", "19th"],
+    "correct_index": 0,
+    "category": "Politics"
+  },
+  {
+    "question_text": "In which year did the Berlin Wall fall?",
+    "options": ["1987", "1988", "1989", "1991"],
+    "correct_index": 2,
+    "category": "Politics"
+  },
+  {
+    "question_text": "Who co-authored 'The Communist Manifesto' with Karl Marx?",
+    "options": ["Vladimir Lenin", "Friedrich Engels", "Leon Trotsky", "Mao Zedong"],
+    "correct_index": 1,
+    "category": "Politics"
+  },
+  {
+    "question_text": "What is the name of the main legislative body of France?",
+    "options": ["Bundestag", "Diet", "National Assembly", "Riksdag"],
+    "correct_index": 2,
+    "category": "Politics"
+  },
+  {
+    "question_text": "Which US president signed the Civil Rights Act of 1964?",
+    "options": ["John F. Kennedy", "Dwight D. Eisenhower", "Lyndon B. Johnson", "Richard Nixon"],
+    "correct_index": 2,
+    "category": "Politics"
+  },
+  {
+    "question_text": "What was the first country to grant women the right to vote nationally?",
+    "options": ["United States", "New Zealand", "Australia", "Finland"],
+    "correct_index": 1,
+    "category": "Politics"
+  }
+]
