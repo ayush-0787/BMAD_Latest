@@ -1,0 +1,80 @@
+================================================================================
+RELEASE NOTES
+================================================================================
+
+Product:        Python Trivia App
+Version:        1.0.0
+Release Date:   2026-06-10
+Prepared By:    Product Team
+
+================================================================================
+NEW FEATURES
+================================================================================
+
+Single-Player Mode
+  Description: Play solo against a 30-second countdown timer across 10 questions.
+               Achieve 70% correct or better to win.
+  Details:
+    - Choose from two question categories: Politics or History.
+    - 10 questions selected at random each round — no two games are identical.
+    - 30-second timer per question; expiry counts as an incorrect answer.
+    - Final screen displays your score and a Win (>=70% correct) or Lose verdict.
+
+Pass-and-Play Multiplayer
+  Description: Two to four players share one device and compete in turn. A
+               handoff screen between turns keeps each player's answers private.
+  Details:
+    - Supports 2–4 players on a single Windows machine.
+    - Each player enters their name before the round begins.
+    - Players answer the same 10 questions independently, in sequence.
+    - A handoff screen appears between turns so no player sees another's results.
+    - Final leaderboard ranks players by percentage correct; tied players share
+      the same rank.
+
+Multi-Layered Scoring System
+  Description: Scores reflect both accuracy and speed. Answering quickly and
+               building answer streaks significantly increases your total.
+  Details:
+    - Correct answer: 100 base points.
+    - Speed bonus: up to 100 additional points based on time remaining.
+    - Streak multiplier: x1.0 (no streak), x1.5 (2 in a row), x2.0 (3-4 in a
+      row), x3.0 (5 or more in a row). Streak resets on any wrong answer or
+      timer expiry.
+
+Question Banks: Politics and History
+  Description: Two curated question categories are available at launch.
+  Details:
+    - Politics: questions drawn at random each round.
+    - History: questions drawn at random each round.
+
+================================================================================
+BUG FIXES
+================================================================================
+
+None. This is the initial release.
+
+================================================================================
+BREAKING CHANGES
+================================================================================
+
+None. This is the initial release.
+
+================================================================================
+KNOWN ISSUES
+================================================================================
+
+Manual Installation Required
+  Description: The game does not include an automated installer. Setup requires
+               running a small number of commands in PowerShell.
+  Workaround:  Follow the step-by-step instructions in the included README file.
+  Status:      Scheduled for a future release.
+
+Windows Only
+  Description: The game currently runs on Windows 10 and Windows 11 only.
+               macOS and Linux are not supported at this time.
+  Workaround:  None.
+  Status:      Investigating.
+
+================================================================================
+END OF RELEASE NOTES
+================================================================================

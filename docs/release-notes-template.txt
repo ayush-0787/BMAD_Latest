@@ -1,0 +1,62 @@
+================================================================================
+RELEASE NOTES
+================================================================================
+
+Product:        [Product Name]
+Version:        [X.Y.Z]
+Release Date:   [YYYY-MM-DD]
+Prepared By:    [Author Name]
+
+================================================================================
+NEW FEATURES
+================================================================================
+
+[Feature title]
+  Description: [Brief description of what the feature does and its value.]
+  Details:
+    - [Detail 1]
+    - [Detail 2]
+
+[Feature title]
+  Description: [Brief description of what the feature does and its value.]
+  Details:
+    - [Detail 1]
+    - [Detail 2]
+
+================================================================================
+BUG FIXES
+================================================================================
+
+[Bug title]
+  Issue:      [Short description of the problem that was occurring.]
+  Resolution: [What was changed to fix it.]
+  Affected:   [Components, modules, or user flows impacted.]
+
+[Bug title]
+  Issue:      [Short description of the problem that was occurring.]
+  Resolution: [What was changed to fix it.]
+  Affected:   [Components, modules, or user flows impacted.]
+
+================================================================================
+BREAKING CHANGES
+================================================================================
+
+[Change title]
+  Description:    [What changed and why.]
+  Impact:         [Who or what is affected.]
+  Migration Steps:
+    1. [Step 1]
+    2. [Step 2]
+
+================================================================================
+KNOWN ISSUES
+================================================================================
+
+[Issue title]
+  Description: [What the issue is and when it occurs.]
+  Workaround:  [Steps to work around the issue, if any. Otherwise: "None."]
+  Status:      [Investigating / In Progress / Scheduled for vX.Y.Z]
+
+================================================================================
+END OF RELEASE NOTES
+================================================================================
