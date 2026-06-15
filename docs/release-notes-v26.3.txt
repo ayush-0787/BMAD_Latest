@@ -1,0 +1,109 @@
+================================================================================
+RELEASE NOTES
+================================================================================
+
+Product:        TouchWorks EHR -- Hub
+Version:        26.3
+Release Date:   2026-06-10
+Prepared By:    Product Team
+
+================================================================================
+NEW FEATURES
+================================================================================
+
+NCPDP Real-Time Prescription Benefit (RTPB) v13 Support
+  Description: The Hub has been updated to comply with NCPDP RTPB v13
+               standards, covering request composition, UI display, and
+               response handling requirements.
+  Details:
+    - RTPB request payloads now conform to the v13 NCPDP specification.
+    - Updated display of RTPB response data and benefit detail views.
+    - Improved error message handling when RTPB responses contain
+      exceptions or unsupported scenarios.
+
+PDMP Integration -- Updated Altera Endpoint
+  Description: The Prescription Drug Monitoring Program (PDMP) integration
+               has been updated to connect to the new Altera-hosted endpoint,
+               replacing the previous endpoint.
+  Details:
+    - Ensures continued PDMP data access following Altera's infrastructure
+      migration.
+    - No change to end-user workflow or screen behavior.
+
+RxTP Certificate Management -- Azure Key Vault Migration
+  Description: RxTP service certificates have been migrated from local
+               Windows Certificate Store to Azure Key Vault.
+  Details:
+    - Improves security posture and centralizes certificate lifecycle
+      management.
+    - No end-user impact; change is infrastructure-level only.
+
+Kansas (KS) State -- SOAP Signature Update
+  Description: Updated the SOAP message signature implementation to align
+               with Kansas state requirements.
+  Details:
+    - Required for continued compliance with KS state interface standards.
+    - Applies to Kansas-based client deployments only.
+
+================================================================================
+BUG FIXES
+================================================================================
+
+None. No defects have been resolved and closed in this release.
+
+================================================================================
+BREAKING CHANGES
+================================================================================
+
+None.
+
+================================================================================
+KNOWN ISSUES
+================================================================================
+
+RTPB v13 -- Rx Pricing Not Displayed (Red X Icon)
+  Description: In certain RTPB v13 scenarios, Rx pricing information is not
+               displayed; a red X icon appears in its place.
+  Workaround:  Refresh the benefits display or retry the RTPB request.
+  Status:      In Progress
+
+RTPB v13 -- Coverage Message and Pharmacy Network Badge Missing
+  Description: In some medication detail views, the coverage message and
+               pharmacy network badge do not appear.
+  Workaround:  None. Issue is under investigation.
+  Status:      In Progress -- On Hold pending HUB dependency resolution.
+
+Formulary v60 -- Formulary Icons Not Displayed
+  Description: Formulary status icons, alternatives, and additional
+               information are not rendered in some F&B v60 scenarios.
+  Workaround:  None.
+  Status:      In Progress
+
+Formulary v60 -- Not All Rx Benefit Plans Displayed
+  Description: During eligibility checks, not all Rx benefit plans are
+               returned and displayed for some patients.
+  Workaround:  None.
+  Status:      In Progress
+
+Formulary v60 -- Incorrect Formulary Status for Some Medications
+  Description: Formulary status for certain medications (e.g., Adderall and
+               therapeutic alternatives) displays incorrectly.
+  Workaround:  Verify formulary status directly with the payer or formulary
+               reference source.
+  Status:      In Progress
+
+Formulary v60 -- Retail Pharmacy Inactive / Network Status Not Displayed
+  Description: Retail pharmacy inactive status and pharmacy network status
+               are not shown in some F&B v60 benefit displays.
+  Workaround:  None.
+  Status:      In Progress -- On Hold pending HUB dependency resolution.
+
+Coverage & Copay -- Text Discrepancy in Display
+  Description: A text discrepancy has been observed in the Coverage and
+               Copay section under certain benefit scenarios.
+  Workaround:  None.
+  Status:      In Progress
+
+================================================================================
+END OF RELEASE NOTES
+================================================================================

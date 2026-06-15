@@ -27,6 +27,14 @@
 
 ---
 
+**Last Updated:** 2026-06-15 | **Deep-Dives:** 1
+
+## Deep-Dive Documentation
+
+Detailed exhaustive analysis of specific areas:
+
+- [UI Screens & Screen Manager Deep-Dive](./deep-dive-ui-screens-and-screen-manager.md) — Comprehensive analysis of all 8 files in `trivia-app/ui/` (829 LOC): Screen base class, ScreenManager orchestrator, MenuScreen, SetupScreen, GameScreen, HandoffScreen, ResultsScreen, and constants — Generated 2026-06-15
+
 ## Generated Documentation
 
 | Document | Description |

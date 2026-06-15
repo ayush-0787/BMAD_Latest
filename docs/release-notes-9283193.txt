@@ -1,0 +1,48 @@
+================================================================================
+RELEASE NOTES
+================================================================================
+
+Product:        TouchWorks EHR -- Hub
+Work Item:      #9283193
+Area:           TWEHR / CC / Hub / RxTxHub
+Release Date:   2026-06-10
+Prepared By:    Product Team
+
+================================================================================
+NEW FEATURES
+================================================================================
+
+RTPB v13 -- Point-in-Time and Informational-Only Disclaimer Display
+  Description: The Real-Time Prescription Benefit (RTPB) panel now displays
+               a fixed disclaimer notifying prescribers that pricing and
+               coverage information is a point-in-time estimate and that
+               alternative medications are informational only.
+  Details:
+    - A disclaimer row has been added above the RTPB results grid.
+    - Disclaimer text displayed to users:
+        "Point-in-time estimate; final cost may change at the pharmacy.
+         Alternatives are informational only."
+    - Text is rendered in italics for visual distinction.
+    - Applies to all RTPB v13 benefit displays within the Hub.
+
+================================================================================
+BUG FIXES
+================================================================================
+
+None.
+
+================================================================================
+BREAKING CHANGES
+================================================================================
+
+None.
+
+================================================================================
+KNOWN ISSUES
+================================================================================
+
+None reported for this item.
+
+================================================================================
+END OF RELEASE NOTES
+================================================================================

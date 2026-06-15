@@ -1,0 +1,48 @@
+================================================================================
+RELEASE NOTES
+================================================================================
+
+Product:        ADP
+Work Item:      #9248686
+Area:           TWEHR / CC / ADP
+Target Release: ADP 26.2
+Release Date:   2026-05-12
+Prepared By:    Ayush Pandya
+
+================================================================================
+NEW FEATURES
+================================================================================
+
+Unity Release Notes -- Doc Admin Role Edit Access
+  Description: Users with the "Doc Admin" role can now edit the Unity Release
+               Notes page without requiring the "Administrator" role. This
+               expands editing access to Doc Admin users while preserving the
+               restriction for users who do not hold the Doc Admin role.
+  Details:
+    - The "Edit Unity Release Notes" button is now visible and functional for
+      users assigned the "Doc Admin" role, even without "Administrator" role.
+    - Users without the "Doc Admin" role continue to see no edit option on
+      the Unity Release Notes page.
+    - Applies to the ADP Unity >> Unity Release Notes navigation path.
+
+================================================================================
+BUG FIXES
+================================================================================
+
+None.
+
+================================================================================
+BREAKING CHANGES
+================================================================================
+
+None.
+
+================================================================================
+KNOWN ISSUES
+================================================================================
+
+None reported for this item.
+
+================================================================================
+END OF RELEASE NOTES
+================================================================================

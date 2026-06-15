@@ -1,41 +1,36 @@
 {
   "workflow_version": "1.2.0",
   "timestamps": {
-    "started": "2026-06-09T00:00:00Z",
-    "last_updated": "2026-06-09T00:00:00Z",
-    "completed": "2026-06-09T00:00:00Z"
+    "started": "2026-06-15T00:00:00Z",
+    "last_updated": "2026-06-15T00:00:00Z",
+    "completed": "2026-06-15T00:00:00Z"
   },
-  "mode": "initial_scan",
-  "scan_level": "deep",
+  "mode": "deep_dive",
+  "scan_level": "exhaustive",
   "project_root": "C:\\Users\\A974997\\BMAD\\trivia-app",
   "project_knowledge": "C:\\Users\\A974997\\BMAD\\docs",
   "completed_steps": [
-    {"step": "step_1", "status": "completed", "timestamp": "2026-06-09T00:00:00Z", "summary": "Classified as monolith, 1 part, Python/pygame-ce desktop game"},
-    {"step": "step_2", "status": "completed", "timestamp": "2026-06-09T00:00:00Z", "summary": "No existing documentation found"},
-    {"step": "step_3", "status": "completed", "timestamp": "2026-06-09T00:00:00Z", "summary": "Tech stack: Python 3.14.2, pygame-ce 2.5.7, pytest 9.0.3"},
-    {"step": "step_4", "status": "completed", "timestamp": "2026-06-09T00:00:00Z", "summary": "Deep scan: state management, UI components, asset inventory documented"},
-    {"step": "step_5", "status": "completed", "timestamp": "2026-06-09T00:00:00Z", "summary": "Source tree with 6 critical directories"},
-    {"step": "step_6", "status": "completed", "timestamp": "2026-06-09T00:00:00Z", "summary": "Dev setup and no deployment config (desktop app)"},
-    {"step": "step_8", "status": "completed", "timestamp": "2026-06-09T00:00:00Z", "summary": "Architecture doc written"},
-    {"step": "step_9", "status": "completed", "timestamp": "2026-06-09T00:00:00Z", "summary": "All supporting docs written"},
-    {"step": "step_10", "status": "completed", "timestamp": "2026-06-09T00:00:00Z", "summary": "Master index generated"},
-    {"step": "step_11", "status": "completed", "timestamp": "2026-06-09T00:00:00Z", "summary": "Validation complete, no incomplete docs"},
-    {"step": "step_12", "status": "completed", "timestamp": "2026-06-09T00:00:00Z", "summary": "Workflow complete"}
+    {"step": "step_13", "status": "completed", "timestamp": "2026-06-15T00:00:00Z", "summary": "Deep-dive: ui/ — 8 files, 829 LOC, exhaustive analysis complete"}
   ],
   "current_step": "completed",
   "findings": {
     "project_classification": "monolith, 1 part, Python desktop game",
-    "technology_stack": "Python 3.14.2 + pygame-ce 2.5.7 on Windows",
-    "existing_docs": "none",
-    "state_management": "GameState dataclass with 7 fields",
-    "ui_components": "5 screens (MenuScreen, SetupScreen, GameScreen, HandoffScreen, ResultsScreen)",
-    "assets": "2 JSON question banks (12 questions each, 2 categories)"
+    "technology_stack": "Python 3.14.2 + pygame-ce 2.5.7 on Windows"
   },
   "project_types": [
     {
       "part_id": "main",
       "project_type_id": "game",
       "display_name": "Python Desktop Trivia Game"
+    }
+  ],
+  "deep_dive_targets": [
+    {
+      "target_name": "UI Screens & Screen Manager",
+      "target_path": "trivia-app/ui/",
+      "files_analyzed": 8,
+      "output_file": "deep-dive-ui-screens-and-screen-manager.md",
+      "timestamp": "2026-06-15T00:00:00Z"
     }
   ],
   "outputs_generated": [
@@ -46,7 +41,8 @@
     "component-inventory.md",
     "data-models.md",
     "development-guide.md",
-    "index.md"
+    "index.md",
+    "deep-dive-ui-screens-and-screen-manager.md"
   ],
   "resume_instructions": "Workflow complete"
 }
