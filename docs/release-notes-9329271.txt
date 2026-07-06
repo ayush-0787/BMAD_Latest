@@ -25,10 +25,11 @@ RTPB v13 -- Pharmacy Incorrectly Displayed for CoverageStatusCode-Only Responses
               notes/messages -- the pharmacy was still displayed in the
               Common UI, incorrectly showing "Pricing not available" and
               "Coverage Status: Not Covered."
-  Resolution: Per the display rules, a pharmacy is now suppressed from the
-              Common UI when its RTPB response contains no pricing, coverage
-              restrictions, or notes/messages, instead of being shown with
-              misleading unavailable/not-covered messaging.
+  Resolution: The issue has been resolved. Per the display rules, a pharmacy
+              is now suppressed from the Common UI when its RTPB response
+              contains no pricing, coverage restrictions, or notes/messages,
+              instead of being shown with misleading unavailable/not-covered
+              messaging.
   Affected:   NCPDP RTPB v13 pharmacy benefit display in Common UI
               (TWEHR\CC\Hub\RxTxHub).
 
