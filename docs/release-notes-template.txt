@@ -29,12 +29,12 @@ BUG FIXES
 
 [Bug title]
   Issue:      [Short description of the problem that was occurring.]
-  Resolution: [What was changed to fix it.]
+  Resolution: [What was changed to fix it.].[The resolution should begin with the text "The issues has been resolved."]
   Affected:   [Components, modules, or user flows impacted.]
 
 [Bug title]
   Issue:      [Short description of the problem that was occurring.]
-  Resolution: [What was changed to fix it.]
+  Resolution: [What was changed to fix it.].[The resolution should begin with the text "The issues has been resolved."]
   Affected:   [Components, modules, or user flows impacted.]
 
 ================================================================================
