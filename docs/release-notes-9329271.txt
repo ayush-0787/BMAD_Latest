@@ -1,0 +1,49 @@
+================================================================================
+RELEASE NOTES
+================================================================================
+
+Product:        TouchWorks EHR -- Hub
+Work Item:      #9329271
+Area:           TWEHR / CC / Hub / RxTxHub
+Target Release: Hub 26.3
+Release Date:   2026-07-06
+Prepared By:    Ayush Pandya
+
+================================================================================
+NEW FEATURES
+================================================================================
+
+None.
+
+================================================================================
+BUG FIXES
+================================================================================
+
+RTPB v13 -- Pharmacy Incorrectly Displayed for CoverageStatusCode-Only Responses
+  Issue:      When an NCPDP RTPB v13 response contained only a
+              CoverageStatusCode -- no pricing, coverage restrictions, or
+              notes/messages -- the pharmacy was still displayed in the
+              Common UI, incorrectly showing "Pricing not available" and
+              "Coverage Status: Not Covered."
+  Resolution: Per the display rules, a pharmacy is now suppressed from the
+              Common UI when its RTPB response contains no pricing, coverage
+              restrictions, or notes/messages, instead of being shown with
+              misleading unavailable/not-covered messaging.
+  Affected:   NCPDP RTPB v13 pharmacy benefit display in Common UI
+              (TWEHR\CC\Hub\RxTxHub).
+
+================================================================================
+BREAKING CHANGES
+================================================================================
+
+None.
+
+================================================================================
+KNOWN ISSUES
+================================================================================
+
+None reported for this item.
+
+================================================================================
+END OF RELEASE NOTES
+================================================================================
