@@ -1,0 +1,66 @@
+================================================================================
+RELEASE NOTES
+================================================================================
+
+Product:        TouchWorks EHR -- Unity
+Work Item:      #9326770
+Area:           TWEHR / CC / Unity
+Target Release: Unity_TW 26.3
+Release Date:   2026-07-06
+Prepared By:    Ayush Pandya
+
+================================================================================
+NEW FEATURES
+================================================================================
+
+TW Mobile -- FMH vs. Engage Patient Identification Flag
+  Description: TW Mobile now distinguishes between FMH-registered and
+               Engage-registered patients, enabling mobile users to send
+               the appropriate tasks to each patient type. Registration
+               status is surfaced automatically when a patient is in
+               context, using the PortalGetRegistrationStatus endpoint.
+  Details:
+    - When a patient is in context in TW Mobile, the application identifies
+      and displays whether the patient is registered through FMH or Engage.
+    - Mobile users are notified of the patient's registration type before
+      initiating task assignments, preventing misrouted tasks.
+    - Registration status is retrieved via the PortalGetRegistrationStatus
+      endpoint.
+    - Applies to the TW Engage / Mobile Task workflow within the Unity
+      platform.
+
+================================================================================
+BUG FIXES
+================================================================================
+
+GetClinicalSummary API -- Active Clinical Items Excluded by Date Filter
+  Issue:      The GetClinicalSummary API was applying the Parameter 4
+              look-back date filter to active allergies, medications,
+              orders, and verified problems. Active clinical items older
+              than the specified date range were silently omitted from
+              API responses, creating a patient safety risk.
+              (Reported in: Unity_TW 25.4 | Severity: 2 - High)
+  Resolution: The API has been updated to always return all active
+              allergies, medications, orders, and verified problems
+              regardless of the Parameter 4 look-back period. Only
+              inactive and discontinued items remain subject to date
+              filtering.
+  Affected:   GetClinicalSummary API (Parameter 4); Unity TW clinical
+              data integrations; any application consuming patient
+              clinical summaries via this endpoint.
+
+================================================================================
+BREAKING CHANGES
+================================================================================
+
+None.
+
+================================================================================
+KNOWN ISSUES
+================================================================================
+
+None reported for this item.
+
+================================================================================
+END OF RELEASE NOTES
+================================================================================

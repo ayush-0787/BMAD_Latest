@@ -1,0 +1,70 @@
+================================================================================
+RELEASE NOTES
+================================================================================
+
+Product:        TouchWorks EHR -- Unity
+Version:        26.3
+Release Date:   2026-07-06
+
+This release improves patient safety by ensuring complete clinical data is
+always surfaced in patient summaries, and expands mobile task management
+with the ability to identify a patient's portal registration type before
+sending tasks.
+
+================================================================================
+WHAT'S NEW
+================================================================================
+
+Identify Patient Portal Type Before Sending Mobile Tasks
+  What it does:  When a patient is in context in TW Mobile, you can now
+                 see whether the patient is registered through FMH or
+                 Engage before initiating a task.
+  Benefit:       Eliminates guesswork when routing tasks to patients --
+                 you always know which portal the patient uses, so tasks
+                 reach the right destination every time.
+  How to access: Available in the TW Mobile task workflow whenever a
+                 patient is in context. The patient's registration type
+                 is displayed automatically -- no additional steps
+                 required.
+
+================================================================================
+IMPROVEMENTS & RESOLVED ISSUES
+================================================================================
+
+Active Patient Allergies, Medications, and Problems Now Always Displayed
+  What you may have noticed:  In some situations, a patient's active
+                               allergies, medications, orders, or
+                               verified problems were not appearing in
+                               their clinical summary -- even though
+                               those items were still active -- if they
+                               had not been updated within a certain
+                               time period.
+  What's better now:          All active allergies, medications, orders,
+                               and verified problems are now always
+                               included in clinical summaries, regardless
+                               of when they were last updated. You can be
+                               confident that a patient's complete active
+                               clinical picture is always visible.
+
+================================================================================
+IMPORTANT CHANGES
+================================================================================
+
+None.
+
+================================================================================
+KNOWN LIMITATIONS
+================================================================================
+
+None.
+
+================================================================================
+NEED HELP?
+================================================================================
+
+If you have questions about this release or encounter any issues, please
+contact your support representative or reach out to Altera Health Support.
+
+================================================================================
+END OF RELEASE NOTES
+================================================================================

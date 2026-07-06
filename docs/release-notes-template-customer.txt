@@ -1,0 +1,78 @@
+================================================================================
+RELEASE NOTES
+================================================================================
+
+Product:        [Product Name]
+Version:        [X.Y.Z]
+Release Date:   [YYYY-MM-DD]
+
+[One to two sentence summary of the release. What is the theme or focus?
+ Example: "This release improves clinical data accuracy and expands mobile
+ patient management capabilities."]
+
+================================================================================
+WHAT'S NEW
+================================================================================
+
+[Feature title -- written from the user's perspective]
+  What it does:  [Describe the capability in plain language. Focus on what
+                  the user can now do, not how the system does it.]
+  Benefit:       [Why this matters to the user. What problem does it solve
+                  or what value does it add?]
+  How to access: [Where the user will find or use this feature, e.g.,
+                  "Available in the patient chart under the Tasks tab."]
+
+[Feature title -- written from the user's perspective]
+  What it does:  [Describe the capability in plain language.]
+  Benefit:       [Why this matters to the user.]
+  How to access: [Where the user will find or use this feature.]
+
+================================================================================
+IMPROVEMENTS & RESOLVED ISSUES
+================================================================================
+
+[Issue title -- describe the symptom the user experienced]
+  What you may have noticed:  [Plain-language description of the problem
+                               from the user's point of view.]
+  What's better now:          [What the user will experience after the fix.
+                               Focus on outcome, not technical change.]
+
+[Issue title -- describe the symptom the user experienced]
+  What you may have noticed:  [Plain-language description of the problem.]
+  What's better now:          [What the user will experience after the fix.]
+
+================================================================================
+IMPORTANT CHANGES
+================================================================================
+
+[Change title]
+  What's changing:  [Plain-language explanation of what is different and
+                     why the change was made.]
+  How this affects  [Describe the impact on the user's day-to-day workflow.
+  you:              Be specific about who is affected.]
+  What to do:
+    1. [Action step 1]
+    2. [Action step 2]
+
+================================================================================
+KNOWN LIMITATIONS
+================================================================================
+
+[Limitation title]
+  What you may notice:  [Description of the issue and when it occurs,
+                          written from the user's perspective.]
+  Workaround:           [Step-by-step workaround, if available. Otherwise:
+                          "No workaround available at this time."]
+  Expected resolution:  [Timeframe or next release target, if known.
+                          Otherwise: "Under investigation."]
+
+================================================================================
+NEED HELP?
+================================================================================
+
+If you have questions about this release or encounter any issues, please
+contact your support representative or visit [Support URL / Contact Info].
+
+================================================================================
+END OF RELEASE NOTES
+================================================================================
